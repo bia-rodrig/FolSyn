@@ -119,7 +119,7 @@ def wdwNewSharedFolder():
 
 def syncFolder():
 	if len(source_folder) == 0:
-		messagebox.showinfo("Folsyn - Message","Error 03\n\nFile \"source_folder.txt\" doesn't exist or is empty.")
+		messagebox.showinfo("Folsyn - Message","Error 03\n\nFile \"source_folder.txt\" is empty.")
 	else:
 		source_path = source_folder[0]
 
